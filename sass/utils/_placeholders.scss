@@ -1,0 +1,32 @@
+%body-fonts {
+  color: $primary-text-color;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+%logo-fonts {
+  color: $logo-text-color;
+  font-family: 'Raleway', sans-serif;
+}
+%centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+%button {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  text-align: center;
+  color: $secondary-color;
+  background-color: $accent-color;
+  cursor: pointer;
+}
+%title {
+  margin: 0;
+  margin-bottom: 50px;
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}

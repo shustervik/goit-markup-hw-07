@@ -1,0 +1,39 @@
+.work-section {
+  padding-bottom: 94px;
+}
+.work {
+  @include centeredFlex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  margin-left: -30px;
+  padding: 0;
+  &__section-title {
+    @extend %title;
+  }
+  &__item {
+    margin-left: 30px;
+  }
+  &__thumb {
+    position: relative;
+  }
+  &__label {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    margin: 0;
+    width: 370px;
+    height: 70px;
+    background-color: $bg-label-color;
+  }
+  &__text {
+    margin: 0;
+    margin-top: 27px;
+    padding: 0;
+    color: $secondary-color;
+    @include fonts(700, 14px, 1.14);
+    text-transform: uppercase;
+    text-align: center;
+  }
+}

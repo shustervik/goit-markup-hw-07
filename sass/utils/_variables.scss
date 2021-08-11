@@ -1,0 +1,45 @@
+$primary-text-color: #757575;
+$secondary-color: #ffffff;
+$title-text-color: #212121;
+$accent-color: #2196f3;
+$logo-text-color: #000000;
+$secondary-bg-color: #f5f4fa;
+$dark-bg-color: #2f303a;
+$button-hover-color: #188ce8;
+$border-color: #eeeeee;
+$header-border-color: #ececec;
+$bg-overlay-color: rgba(47, 48, 58, 0.4);
+$bg-hero-color: #c4c4c4;
+// bg-skills-color: #f5f4fa;
+$social-link-color: #afb1b8;
+$bg-label-color: rgba(47, 48, 58, 0.8);
+$bg-overlaycard-color: rgba(33, 150, 243, 0.9);
+$bg-backdrop-color: rgba(0, 0, 0, 0.2);
+$close-color: rgba(0, 0, 0, 0.1);
+$form-color: rgba(33, 33, 33, 0.2);
+$form-btn-shadow: rgba(0, 0, 0, 0.15);
+$form-placeholder: rgba(117, 117, 117, 0.5);
+$subscribe-color: rgba(255, 255, 255, 0.3);
+$subscribe-placeholder-color: rgba(255, 255, 255, 0.6);
+$timing-fn: cubic-bezier(0.4, 0, 0.2, 1);
+$duration: 250ms;
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

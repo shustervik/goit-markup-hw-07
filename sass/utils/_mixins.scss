@@ -1,0 +1,15 @@
+@mixin centeredFlex($type: flex) {
+  display: $type;
+  align-items: center;
+}
+@mixin fonts($font-weight, $font-size, $line-height, $letter-spacing: 0.03em) {
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+}
+@mixin transition($type) {
+  transition-property: $type;
+  transition-duration: $timing-fn;
+  transition-timing-function: $duration;
+}

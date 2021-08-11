@@ -1,0 +1,38 @@
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-list {
+  @include centeredFlex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-left: -30px;
+  padding: 0;
+  list-style: none;
+}
+.client {
+  margin-left: 30px;
+  &__section-title {
+    @extend %title;
+  }
+  &__link {
+    display: inline-block;
+    height: 92px;
+    width: 170px;
+    margin: 0;
+    padding: 16px 32px;
+    color: $social-link-color;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    @include transition(color);
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+  &__icon {
+    margin: 0;
+    fill: currentColor;
+  }
+}

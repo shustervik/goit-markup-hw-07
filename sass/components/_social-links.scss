@@ -1,0 +1,81 @@
+.social-links-list {
+  @include centeredFlex;
+  padding: 0;
+  margin: 0;
+  margin-top: 16px;
+  margin-left: -10px;
+  justify-content: center;
+  list-style: none;
+}
+.network {
+  margin-left: 10px;
+}
+.social-link {
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  margin: 0;
+  padding: 12px;
+  color: $social-link-color;
+  border-radius: 50%;
+  cursor: pointer;
+  @include transition(background-color color border-radius);
+  &:hover,
+  &:focus {
+    border-radius: 50%;
+    background-color: $accent-color;
+    color: $secondary-color;
+  }
+  &__icon {
+    margin: 0;
+    fill: currentColor;
+    &:hover,
+    &:focus {
+      fill: currentColor;
+    }
+  }
+}
+.footer-links {
+  margin-left: 70px;
+  &__title {
+    margin: 0;
+    margin-bottom: 20px;
+    color: $secondary-color;
+    @include fonts(700, 16px, 1.14);
+    text-transform: uppercase;
+  }
+}
+.footer-social-links-list {
+  @include centeredFlex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  margin-left: -10px;
+  list-style: none;
+}
+.footer-social-link {
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  margin: 0;
+  padding: 12px;
+  color: $secondary-color;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  @include transition(background-color color border-radius);
+  &:hover,
+  &:focus {
+    border-radius: 50%;
+    background-color: $accent-color;
+    color: $secondary-color;
+  }
+  &__icon {
+    margin: 0;
+    fill: currentColor;
+    &:hover,
+    &:focus {
+      fill: currentColor;
+    }
+  }
+}

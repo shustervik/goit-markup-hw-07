@@ -1,0 +1,6 @@
+body {
+  @extend %body-fonts;
+  @include fonts(400, 14px, 1.71, 0.03em);
+  margin: 0;
+  background-color: $secondary-color;
+}
