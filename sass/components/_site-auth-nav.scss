@@ -27,7 +27,7 @@
   color: $title-text-color;
   font-family: inherit;
   text-decoration: none;
-  @include transition(color);
+  @include transition-base(color);
   &:hover,
   &:focus {
     color: $accent-color;
@@ -53,7 +53,7 @@
   color: inherit;
   font-family: inherit;
   text-decoration: none;
-  @include transition(color);
+  @include transition-base(color);
   &:hover,
   &:focus {
     color: $accent-color;

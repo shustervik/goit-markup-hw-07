@@ -15,7 +15,7 @@
   min-width: 200px;
   @include fonts(700, 16px, 1.87, 0.06em);
   font-family: inherit;
-  @include transition(background-color);
+  @include transition-base(background-color);
   &:hover,
   &:focus {
     background-color: $button-hover-color;

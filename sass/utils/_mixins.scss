@@ -8,8 +8,10 @@
   line-height: $line-height;
   letter-spacing: $letter-spacing;
 }
-@mixin transition($type) {
-  transition-property: $type;
-  transition-duration: $timing-fn;
-  transition-timing-function: $duration;
+@mixin transition-base($properties...) {
+  transition-duration: $duration;
+  transition-timing-function: $timing-fn;
+  @if length($properties) > 0 {
+    transition-property: $properties;
+  }
 }

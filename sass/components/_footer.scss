@@ -18,7 +18,7 @@
 .address__link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  @include transition(color);
+  @include transition-base(color);
   &:hover,
   &:focus {
     color: $accent-color;

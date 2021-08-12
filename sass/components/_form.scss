@@ -35,7 +35,7 @@
   font: inherit;
   border: 1px solid $form-color;
   border-radius: 4px;
-  @include transition(border-color);
+  @include transition-base(border-color);
   &:focus-within {
     outline: none;
     border-color: $accent-color;
@@ -58,7 +58,7 @@
   padding: 12px 16px;
   font-family: inherit;
   @include fonts(400, 12px, 1.17, 0.01em);
-  @include transition(border-color);
+  @include transition-base(border-color);
   &:focus-within {
     outline: none;
     border-color: $accent-color;
@@ -115,7 +115,7 @@
   font-family: inherit;
   @include fonts(700, 16px, 1.87, 0.06em);
   box-shadow: 0px 4px 4px var(--form-btn-shadow);
-  @include transition(background-color);
+  @include transition-base(background-color);
   &:hover,
   &:focus {
     background-color: $button-hover-color;

@@ -22,7 +22,7 @@
   border-color: transparent;
   font-family: inherit;
   @include fonts(500, 16px, 1.62);
-  @include transition(background-color color border-color box-shadow);
+  @include transition-base(background-color, color, border-color, box-shadow);
   &:hover,
   &:focus {
     color: $secondary-color;
