@@ -1,23 +1,23 @@
 .hero {
   padding-top: 200px;
   text-align: center;
-  &__title {
-    margin-top: 0;
-    margin-bottom: 30px;
-    padding: 0;
-    color: $secondary-color;
-    @include fonts(900, 44px, 1.36, 0.06em);
-    text-transform: uppercase;
-  }
-  &__btn {
-    @extend %button;
-    min-width: 200px;
-    @include fonts(700, 16px, 1.87, 0.06em);
-    font-family: inherit;
-    @include transition(background-color);
-    &:hover,
-    &:focus {
-      background-color: $button-hover-color;
-    }
+}
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  color: $secondary-color;
+  @include fonts(900, 44px, 1.36, 0.06em);
+  text-transform: uppercase;
+}
+.hero__btn {
+  @extend %button;
+  min-width: 200px;
+  @include fonts(700, 16px, 1.87, 0.06em);
+  font-family: inherit;
+  @include transition(background-color);
+  &:hover,
+  &:focus {
+    background-color: $button-hover-color;
   }
 }

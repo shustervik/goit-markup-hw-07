@@ -26,24 +26,24 @@
     background-color: $accent-color;
     color: $secondary-color;
   }
-  &__icon {
-    margin: 0;
+}
+.social-link__icon {
+  margin: 0;
+  fill: currentColor;
+  &:hover,
+  &:focus {
     fill: currentColor;
-    &:hover,
-    &:focus {
-      fill: currentColor;
-    }
   }
 }
 .footer-links {
   margin-left: 70px;
-  &__title {
-    margin: 0;
-    margin-bottom: 20px;
-    color: $secondary-color;
-    @include fonts(700, 16px, 1.14);
-    text-transform: uppercase;
-  }
+}
+.footer-links__title {
+  margin: 0;
+  margin-bottom: 20px;
+  color: $secondary-color;
+  @include fonts(700, 16px, 1.14);
+  text-transform: uppercase;
 }
 .footer-social-links-list {
   @include centeredFlex;
@@ -70,12 +70,12 @@
     background-color: $accent-color;
     color: $secondary-color;
   }
-  &__icon {
-    margin: 0;
+}
+.footer-social-link__icon {
+  margin: 0;
+  fill: currentColor;
+  &:hover,
+  &:focus {
     fill: currentColor;
-    &:hover,
-    &:focus {
-      fill: currentColor;
-    }
   }
 }

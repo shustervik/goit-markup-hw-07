@@ -2,11 +2,11 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: $dark-bg-color;
-  &__container {
-    display: flex;
-    align-items: baseline;
-    background-color: $dark-bg-color;
-  }
+}
+.footer__container {
+  display: flex;
+  align-items: baseline;
+  background-color: $dark-bg-color;
 }
 .address {
   padding: 0;
@@ -14,14 +14,14 @@
   color: $secondary-color;
   font-family: inherit;
   font-style: inherit;
-  &__link {
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    @include transition(color);
-    &:hover,
-    &:focus {
-      color: $accent-color;
-    }
+}
+.address__link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  @include transition(color);
+  &:hover,
+  &:focus {
+    color: $accent-color;
   }
 }
 .auth {

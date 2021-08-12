@@ -12,27 +12,27 @@
 }
 .client {
   margin-left: 30px;
-  &__section-title {
-    @extend %title;
+}
+.client__section-title {
+  @extend %title;
+}
+.client__link {
+  display: inline-block;
+  height: 92px;
+  width: 170px;
+  margin: 0;
+  padding: 16px 32px;
+  color: $social-link-color;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  @include transition(color);
+  &:hover,
+  &:focus {
+    color: $accent-color;
   }
-  &__link {
-    display: inline-block;
-    height: 92px;
-    width: 170px;
-    margin: 0;
-    padding: 16px 32px;
-    color: $social-link-color;
-    border: 1px solid;
-    border-radius: 4px;
-    cursor: pointer;
-    @include transition(color);
-    &:hover,
-    &:focus {
-      color: $accent-color;
-    }
-  }
-  &__icon {
-    margin: 0;
-    fill: currentColor;
-  }
+}
+.client__icon {
+  margin: 0;
+  fill: currentColor;
 }

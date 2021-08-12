@@ -46,11 +46,11 @@
   &:focus {
     color: $accent-color;
   }
-  &__icon {
-    margin: 0;
-    &:hover,
-    &:focus {
-      fill: currentColor;
-    }
+}
+.close__icon {
+  margin: 0;
+  &:hover,
+  &:focus {
+    fill: currentColor;
   }
 }

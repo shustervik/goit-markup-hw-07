@@ -3,9 +3,9 @@
   @include fonts(700, 26px, 1.2);
   margin-right: 92px;
   text-decoration: none;
-  &__accent {
-    color: $accent-color;
-  }
+}
+.logo__accent {
+  color: $accent-color;
 }
 .footer__logo {
   margin: 0;

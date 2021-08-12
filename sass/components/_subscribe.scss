@@ -1,28 +1,28 @@
 .subscribe-form {
   margin-left: 93px;
-  &__title {
-    margin: 0;
-    margin-bottom: 20px;
-    color: $secondary-color;
-    @include fonts(700, 16px, 1.14);
-    text-transform: uppercase;
-  }
+}
+.subscribe-form__title {
+  margin: 0;
+  margin-bottom: 20px;
+  color: $secondary-color;
+  @include fonts(700, 16px, 1.14);
+  text-transform: uppercase;
 }
 .subscribe-form-field {
   display: flex;
-  &__btn-icon {
-    @include centeredFlex(inline-flex);
-    min-width: 200px;
-    padding: 10px 28px 10px 29px;
-    &::after {
-      content: '';
-      margin-left: 10px;
-      width: 24px;
-      height: 24px;
-      background-image: url('../images/icon-send.svg');
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
+}
+.subscribe-form-field__btn-icon {
+  @include centeredFlex(inline-flex);
+  min-width: 200px;
+  padding: 10px 28px 10px 29px;
+  &::after {
+    content: '';
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/icon-send.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 .subscribe-form-input {

@@ -18,9 +18,9 @@
   &:focus {
     border-color: $accent-color;
   }
-  &__textarea {
-    margin-bottom: 0;
-  }
+}
+.form__textarea {
+  margin-bottom: 0;
 }
 .form__label {
   margin: 0;
@@ -76,23 +76,23 @@
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-  &__label {
-    @include centeredFlex;
-    display: inline-block;
-    margin: 20px 0 30px 12px;
-    cursor: pointer;
-  }
-  &__icon {
-    display: inline-block;
-    margin-right: 7px;
-    width: 16px;
-    height: 15px;
-    border: 2px solid $title-text-color;
-    border-radius: 2px;
-  }
-  &__link {
-    color: $accent-color;
-  }
+}
+.checkbox__label {
+  @include centeredFlex;
+  display: inline-block;
+  margin: 20px 0 30px 12px;
+  cursor: pointer;
+}
+.checkbox__icon {
+  display: inline-block;
+  margin-right: 7px;
+  width: 16px;
+  height: 15px;
+  border: 2px solid $title-text-color;
+  border-radius: 2px;
+}
+.checkbox__link {
+  color: $accent-color;
 }
 .check-in {
   @include centeredFlex;
